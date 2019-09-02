@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@ body {
   .container {
     width: 100%;
     height: 100vh;
-    transition: all 500ms;
+    transition: all 2000ms;
     transform-style: preserve-3d;
   }
   .container section {
@@ -33,13 +34,13 @@ body {
     background: white
   }
   .container section.about {
-    background: #ffc107;
+    background: white;
   }
   .container section.work {
-    background: #4caf50;
+    background: white;
   }
   .container section.contact {
-    background: #f44336;
+    background: white;
   }
   .container section h1 {
     margin: 0;
@@ -59,6 +60,85 @@ body {
     transition: transform 2000ms;
     transform-style: preserve-3d;
   }
+  .container section h3 {
+    margin: 0;
+    font-size: 30px;
+    transform: translate(0, 40vh);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    transition: transform 2000ms;
+    transform-style: preserve-3d;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+
+  .container section h4 {
+    margin: 0;
+    font-size: 30px;
+    transform: translate(0, 35vh);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    transition: transform 2000ms;
+    transform-style: preserve-3d;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+
+  .container section p13 {
+    font: italic bold 1.5em/1em Georgia, serif ;
+    font-size: 20px;
+    transform: translate(0, 80vh);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: black;
+    margin: 0;
+    transition: transform 2000ms;
+    transform-style: preserve-3d;
+  }
+
+  .container section p13c {
+    font: italic bold 1.5em/1em Georgia, serif ;
+    font-size: 40px;
+    transform: translate(0, 15vh);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: black;
+    margin: 0;
+    transition: transform 2000ms;
+    transform-style: preserve-3d;
+  }
+
+  .container section p13w {
+    font: italic bold 1.5em/1em Georgia, serif ;
+    font-size: 20px;
+    transform: translate(0, 70vh);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: black;
+    margin: 0;
+    transition: transform 2000ms;
+    transform-style: preserve-3d;
+  }
+
   .container section label {
     display: block;
     position: absolute;
@@ -195,4 +275,8 @@ body {
   #menu:checked + .container section.contact:hover {
     top: 8px;
   }
-  
+
+
+
+
+   
