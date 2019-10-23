@@ -129,17 +129,10 @@ body {
   .container section p13w {
     font: italic bold 1.5em/1em Georgia, serif ;
     font-size: 20px;
-    transform: translate(0, 70vh);
-    position: -webkit-sticky;
-    position: sticky;
-    left:3000px;
-    top: 2800px;
-    text-align: center;
-    width: 100%;
     color: black;
-    margin: 0;
-    transition: transform 2000ms;
-    transform-style: preserve-3d;
+    position:absolute;
+    bottom:20px;
+    right:20px;
   }
 
   .container section label {
