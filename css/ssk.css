@@ -130,7 +130,10 @@ body {
     font: italic bold 1.5em/1em Georgia, serif ;
     font-size: 20px;
     transform: translate(0, 70vh);
-    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    left:3000px;
+    top: 2800px;
     text-align: center;
     width: 100%;
     color: black;
